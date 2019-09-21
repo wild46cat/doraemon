@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:user="http://www.wuxueyou.cn/schema/user"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.wuxueyou.cn/schema/user http://www.wuxueyou.cn/schema/user.xsd">
+
+    <user:self-user id="user2" userId="12" name="aaa"/>
+    <bean id="user1" class="com.xueyou.User">
+        <property name="userId" value="33"/>
+        <property name="name" value="xiaoming"/>
+    </bean>
+</beans>
