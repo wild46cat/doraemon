@@ -16,6 +16,7 @@
         <module>springnamespacemiddleware</module>
         <module>dubboprovider</module>
         <module>dubboconsumer</module>
+        <module>springsourcecodeanalyze</module>
     </modules>
 
     <properties>
