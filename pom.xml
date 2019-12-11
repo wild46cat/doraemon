@@ -13,10 +13,9 @@
 
     <modules>
         <module>demo</module>
-        <module>springnamespacemiddleware</module>
-        <module>dubboprovider</module>
-        <module>dubboconsumer</module>
-        <module>springsourcecodeanalyze</module>
+        <module>spring-namespace-middleware</module>
+        <module>spring-sourcecode-analyze</module>
+        <module>dubbo-demo</module>
     </modules>
 
     <properties>
